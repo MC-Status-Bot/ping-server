@@ -4,6 +4,6 @@ port: 3001
 redis: ${REDIS_URL} # Use an environment variable to define the Redis URL
 cache:
   enable_locks: true
-  java_status_duration: 10s
-  bedrock_status_duration: 10s
+  java_status_duration: 5m
+  bedrock_status_duration: 5m
   icon_duration: 24h
